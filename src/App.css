@@ -15,16 +15,16 @@ main {
 .container {
   margin-top: 20px;
   background-color: white;
-  width: 380px;
+  width: 400px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  padding: 20px 12px;
+  padding: 18px 12px;
 }
 
 .label {
   font-size: 15px;
-  color: black;
+  color: #121212;
   line-height: 150%;
 }
 
@@ -32,23 +32,24 @@ main {
   margin-top: 4px;
   margin-bottom: 12px;
   padding-left: 8px;
-  height: 28px;
-  color: gainsboro;
-  background-color: black;
+  height: 34px;
+  color: #FFF;
+  background-color: #121212;
   border-radius: 4px;
 }
 
 .button {
-  margin-top: 4px;
-  height: 28px;
+  margin-top: 8px;
+  height: 34px;
   border: none;
   border-radius: 4px;
-  background-color: aqua;
+  background-color: #5EE6FF;
+  color: #121212;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .resultado {
-  margin-top: 26px;
+  margin-top: 24px;
   color: white;
 }
